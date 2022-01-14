@@ -1,0 +1,75 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.order-total-bill-heading {
+  font-size: 22px;
+  font-family: Roboto;
+}
+
+.remove-all-paragraph {
+  background-color: transparent;
+  border-width: 0px;
+  color: blue;
+  align-self: flex-end;
+}
+.order-total-bill-collects-by-consumer{
+    align-self:flex-end;
+}
+.checkoutbtn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.spanorder-total {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+}
+.len-of-cart-list {
+  color: #616e7c;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
